@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="145dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginBottom="519dp"
+        android:layout_x="87dp"
+        android:layout_y="64dp"
+        android:text="Square Caculator"
+        android:textColor="#4CAF50"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="112dp"
+        android:layout_y="216dp"
+        android:text="Caculate"
+        app:backgroundTint="#009688" />
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="388dp"
+        android:text="Back"
+        app:backgroundTint="#009688" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_x="145dp"
+        android:layout_y="151dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_x="143dp"
+        android:layout_y="294dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="37dp"
+        android:layout_y="161dp"
+        android:text="Number :"
+        android:textColor="#4CAF50"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="43dp"
+        android:layout_y="306dp"
+        android:text="Result :"
+        android:textColor="#4CAF50"
+        android:textSize="20sp" />
+
+</AbsoluteLayout>
